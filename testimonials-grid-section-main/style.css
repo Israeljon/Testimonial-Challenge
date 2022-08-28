@@ -41,6 +41,12 @@ body{
     border-radius: 5px;
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
     font-size: 13px;
+    transition: all .3s ease-in-out;
+}
+
+.grid-item:hover{
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .grid-item p{
